@@ -7,7 +7,7 @@
 int main(void)
 {
 	char c = 'a';
-	
+
 	do {
 		putchar(c);
 		putchar('\n');
