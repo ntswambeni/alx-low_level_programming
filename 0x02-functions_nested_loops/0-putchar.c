@@ -1,8 +1,4 @@
-#ifndef HEARDER_FILE
-#define HEADER_FILE
 #include "main.h"
-#include "_putchar.c"
-#endif
 
 /**
  * main - the entry point of the program
