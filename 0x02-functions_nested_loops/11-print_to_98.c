@@ -12,5 +12,5 @@ void print_to_98(int n)
 		_putchar(',');
 		_putchar(' ');
 	}
-	putchar('\n');
+	_putchar('\n');
 }
