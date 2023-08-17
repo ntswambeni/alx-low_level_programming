@@ -3,8 +3,8 @@
 #include <stddef.h>
 
 /**
- * _islower - checks if a character is lowercase or not
- * @c - the charater to test
+ * _islower - Checks if a character is lowercase or not
+ * @c: The charater to test
  * Return: 1 if lowercase. 0 otherwise
  */
 int _islower(int c)
