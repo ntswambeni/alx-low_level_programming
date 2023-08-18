@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * _islower - Checks if a character is uppercase or not
+ * _isupper - Checks if a character is uppercase or not
  * @c: The charater to test
  * Return: 1 if uppercase. 0 otherwise
  */
