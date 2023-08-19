@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * largest_prime - returns the largest prime number of 612852475143 
+ * largest_prime - returns the largest prime number of 612852475143
  * Return: largest prime
  */
 void largest_prime(void)
@@ -35,7 +35,7 @@ void largest_prime(void)
 	}
 	if (number > 4)
 		largest_prime = number;
-	printf("%ld\n",largest_prime);
+	printf("%ld\n", largest_prime);
 }
 
 /**
