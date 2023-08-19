@@ -21,10 +21,11 @@ void fizz_buzz(void)
 		else
 			printf("%d", i);
 
+		putchar(i);
 		if (i < 100)
-			putchar(' ');
 	}
 	putchar('\n');
+	
 }
 
 /**
