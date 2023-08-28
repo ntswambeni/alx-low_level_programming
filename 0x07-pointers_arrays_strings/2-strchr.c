@@ -18,6 +18,11 @@ char *_strchr(char *s, char c)
 			p = &s[i];
 			return (p);
 		}
+	if (c == '\0')
+	{
+		p = &s[i];
+		return (p);
+	}
 
 	return (NULL);
 }
