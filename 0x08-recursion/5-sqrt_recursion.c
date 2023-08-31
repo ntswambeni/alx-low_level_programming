@@ -25,11 +25,10 @@ int _sqrt_recursion(int n)
 int the_sqrt(int m, int n)
 {
 	if (m * m == n)
-	{
-		return m;
-	}
-	if (m * m > n){
+		return (m);
+
+	if (m * m > n)
 		return (-1);
-	}
+
 	return (the_sqrt(m + 1, n));
 }
