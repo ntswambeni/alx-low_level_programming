@@ -21,7 +21,7 @@ int is_palindrome(char *s)
 }
 
 /**
- * the_palindrom - tests if a string is a palindrome
+ * the_palindrome - tests if a string is a palindrome
  * @s: string to test
  * @head: character from left to right
  * @tail: character from right to left
