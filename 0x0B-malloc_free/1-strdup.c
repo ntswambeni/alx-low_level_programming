@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	strcp = (char *)malloc(sizeof(char) * strlen(str));
+	strcp = (char *)malloc(sizeof(char) * (strlen(str) + 1));
 
 	if (strcp != NULL)
 	{
@@ -24,6 +24,7 @@ char *_strdup(char *str)
 		{
 			strcp[i] = str[i];
 		}
+		strcp[i] = str[i];
 	}
 
 	return (strcp);
