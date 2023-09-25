@@ -39,15 +39,15 @@ char *str_concat(char *s1, char *s2)
 	}
 	auxstr = s2;
 
-	if (auxstr == NULL)
-		concatstr[i] = '\0';
-	else
+	if (auxstr != NULL)
+	{
 		while (*auxstr)
 		{
 			concatstr[i] = *auxstr;
 			i++;
 			auxstr++;
 		}
-		concatstr[i] = '\0';
+	}
+	concatstr[i] = '\0';
 	return (concatstr);
 }
