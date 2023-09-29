@@ -5,7 +5,7 @@
  * @x: base number
  * @y: exponent
  * Return: result of x to the power y
- * */
+ */
 int _pow_recursion(int x, int y)
 {
 	if (y < 0)
