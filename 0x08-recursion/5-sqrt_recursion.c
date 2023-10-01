@@ -5,23 +5,23 @@
  * @n: number to calculate square root
  * Return: square root of n
  */
- int _sqrt_recursion(int n)
- {
- 	if (n < 0)
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
 		return (-1);
-	if(n == 0)
+	if (n == 0)
 		return (0);
-	if(n == 1)
+	if (n == 1)
 		return (1);
-	return (the_sqrt(2,n));
- }
+	return (the_sqrt(2, n));
+}
 
- /**
-  * the_sqrt - calculates the square root of a number
-  * @m: controler
-  * @n: number to calculate
-  * Return: Square root of the n
-  */
+/**
+ * the_sqrt - calculates the square root of a number
+ * @m: controler
+ * @n: number to calculate
+ * Return: Square root of the n
+ */
 int the_sqrt(int m, int n)
 {
 	if (m * m == n)
@@ -29,5 +29,5 @@ int the_sqrt(int m, int n)
 	if (m * m > n)
 		return (-1);
 
-	return (the_sqrt(m+1, n));
+	return (the_sqrt(m + 1, n));
 }
