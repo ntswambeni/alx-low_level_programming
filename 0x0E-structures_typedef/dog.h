@@ -2,6 +2,11 @@
 #define HEADER_FILES
 
 /**
+ * dog_t - Typedef for struct dog
+ */
+typedef struct dog dog_t;
+
+/**
  * struct dog - prototype of a dog
  * @name: name of the dog
  * @age: age of the dog
