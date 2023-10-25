@@ -5,13 +5,14 @@
  * @array: array of ints to search
  * @size: size of the array
  * @cmp: function to perform
+ * Return: index of the element
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
 	if (array == NULL || cmp == NULL)
-		exit(0);
+		return (-1);
 	if (size <= 0)
 		return (-1);
 
