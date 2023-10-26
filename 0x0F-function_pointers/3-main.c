@@ -13,6 +13,11 @@ int main(int argc, char *argv[])
 {
 	int (*func)(int, int), result;
 
+	if (strlen(argv[2]) > 1)
+	{
+		printf("Error\n");
+		exit(99);
+	}
 
 	if (argc != 4)
 	{

@@ -20,11 +20,6 @@ int (*get_op_func(char *s))(int, int)
 	};
 	int i = 0;
 
-	if (strlen(s) > 1)
-	{
-		printf("Error\n");
-		exit(99);
-	}
 	while (ops[i].op != NULL)
 	{
 		if ((*ops[i].op) == (*s))
